@@ -40,8 +40,8 @@ insert into pagos (num_pago, total, estado, fecha_alta) values
 	(2,4000, "fallido", now());
 
 insert into ordenes (id, dni_cliente, num_pago, estado, fecha_alta) values
-	(1, 12345678, 1, "pagado", now()),
-	(2, 33556786, 2, "fallido", now());
+	(1, 12345678, 1, "pagada", now()),
+	(2, 33556786, 2, "cancelada", now());
 
 insert into orden_productos (id_orden, id_producto, cantidad, precio) values
 	(1, 5, 1, 7500),

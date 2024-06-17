@@ -65,3 +65,16 @@ create table orden_productos(
     constraint `fk_orden_productos_id_orden` foreign key (id_orden) references ordenes (id),
     constraint `fk_orden_productos_id_producto` foreign key (id_producto) references productos (id)
 );    
+
+# ---------------------------------------------------------------------------
+# creacion de tablas - para control
+# ---------------------------------------------------------------------------
+
+create table control_productos(
+	id_producto int not null,
+    stock_actual int not null default 0,
+    stock_anterior int not null default 0,
+    fecha_modificacion datetime,
+    constraint `fk_control_productos_id_producto` foreign key (id_producto) references productos (id)
+);
+
