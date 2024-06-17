@@ -70,11 +70,19 @@ create table orden_productos(
 # creacion de tablas - para control
 # ---------------------------------------------------------------------------
 
-create table control_productos(
+create table control_stock_de_productos(
 	id_producto int not null,
     stock_actual int not null default 0,
     stock_anterior int not null default 0,
     fecha_modificacion datetime,
-    constraint `fk_control_productos_id_producto` foreign key (id_producto) references productos (id)
+    constraint `fk_control_stock_de_productos_id_producto` foreign key (id_producto) references productos (id)
+);
+
+create table control_precio_de_productos(
+    id_producto int not null,
+    precio_actual decimal not null,
+    precio_anterior decimal not null,
+    fecha_modificacion datetime,
+    constraint `fk_control_precio_de_productos_id_producto` foreign key (id_producto) references productos (id)
 );
 
