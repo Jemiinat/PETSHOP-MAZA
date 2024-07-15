@@ -30,16 +30,25 @@ El objetivo principal del proyecto es proporcionar una experiencia de compra fá
 
 El objetivo principal de Pet Shop es crear una plataforma amigable que:
 
-Facilite la compra de productos para mascotas
-Ampliar el alcance del mercado
-Mejorar la satisfacción del cliente
-Gestionar el inventario de manera eficiente
++ Facilite la compra de productos para mascotas
++ Ampliar el alcance del mercado
++ Mejorar la satisfacción del cliente
++ Gestionar el inventario de manera eficiente
 
 Antes de la implementación de Petshop, se identificaron varias problemáticas que afectan tanto a la tienda como a los clientes:
 
-Acceso limitado a productos
-Gestión ineficiente del inventario
-Falta de visibilidad y alcance
-Servicio al cliente limitado
++ Acceso limitado a productos
++ Gestión ineficiente del inventario
++ Falta de visibilidad y alcance
++ Servicio al cliente limitado
+
+
+## Herramientas y tecnologías usadas:
+
++ MySQL
++ MySQL WORKBENCH
++ GITHUB 
++ GOOGLE DRIVE 
+
 
 
