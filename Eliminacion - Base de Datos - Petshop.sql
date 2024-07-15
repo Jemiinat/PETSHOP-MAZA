@@ -2,6 +2,8 @@
 # eliminacion de tablas
 # ---------------------------------------------------------------------------
 
+drop table if exists petshop.control_precio_de_productos;
+drop table if exists petshop.control_stock_de_productos;
 drop table if exists petshop.orden_productos;
 drop table if exists petshop.ordenes;
 drop table if exists petshop.productos;

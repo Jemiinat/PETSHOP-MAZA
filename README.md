@@ -18,3 +18,28 @@ Página de alimento y artículos varios para mascotas. (PetShop)
 5. Corremos el script de [Triggers](https://github.com/Jemiinat/PETSHOP-MAZA/blob/main/Triggers%20-%20Base%20de%20Datos%20-%20Petshop.sql)
 
 6. Corremos el script de [Vistas](https://github.com/Jemiinat/PETSHOP-MAZA/blob/main/Vistas%20-%20Base%20de%20Datos%20-%20Petshop.sql)
+
+
+## CURSO SQL: PROYECTO FINAL
+
+Nombre del Proyecto: Pet Shop
+
+Pet Shop es una plataforma de comercio online (e-commerce) dedicada a la venta de artículos y alimentos para mascotas. 
+El objetivo principal del proyecto es proporcionar una experiencia de compra fácil para los dueños de mascotas,
+ permitiéndoles acceder a una amplia variedad de productos y servicios desde la comodidad de sus hogares.
+
+El objetivo principal de Pet Shop es crear una plataforma amigable que:
+
+Facilite la compra de productos para mascotas
+Ampliar el alcance del mercado
+Mejorar la satisfacción del cliente
+Gestionar el inventario de manera eficiente
+
+Antes de la implementación de Petshop, se identificaron varias problemáticas que afectan tanto a la tienda como a los clientes:
+
+Acceso limitado a productos
+Gestión ineficiente del inventario
+Falta de visibilidad y alcance
+Servicio al cliente limitado
+
+
